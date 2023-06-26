@@ -18,15 +18,6 @@ export class PostIntroView extends BaseView {
     protected create() {
         this.setView(this.cache.json.entries.get("loading").PostIntro)
         super.create();
-        // let obj = this.cache.json.entries.get("loading").loading;
-        // for (let propt in obj) {
-        //     this.load.image(`${propt}`,`${obj[propt]}`);
-        //     // console.log(propt + ': ' + obj[propt]);
-        // }
-        // let postintrobg = this.add.image(640, 383, 'BlackJackIntro');
-        // postintrobg.setScale(1.1);
-        // // postintrobg.setOrigin(0,0);
-        // this.add.text(200, 200, "HI AKSHAY LOADING");
         new PostIntroController(this);
     }
 }

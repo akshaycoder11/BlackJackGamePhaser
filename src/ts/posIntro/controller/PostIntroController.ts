@@ -13,7 +13,8 @@ export class PostIntroController {
         this.button && this.button.on('pointerdown', this.startBaseGame, this);
     }
     protected startBaseGame() {
-       this.view.scene.start("BaseGameView");
+        this.view.scene.start("BaseGameView");
+        this.view.scene.remove("PostIntroView")
         console.log("pressed");
     }
 }

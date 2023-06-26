@@ -9,10 +9,6 @@ export class BaseGameView extends BaseView {
     }
 
     protected preload() {
-        //    let obj = this.cache.json.entries.get("loading").BaseGame;
-        // for (let propt in obj) {
-        //     this.load.image(`${propt}`,`${obj[propt]}`);
-        // }
         this.load.image("gameBG", "./res/images/GameBg.png");
         this.load.image("ChipsBG", "./res/images/ChipsBG.png");
         this.load.image("MtrBlurBg", "./res/images/MtrBlurBg.png");
