@@ -1,0 +1,67 @@
+{
+    "BaseGame":{
+        "winPresentaionContainer": {
+            "id": "winPresentaionContainer",
+            "x": 0,
+            "y": 0,
+            "visible": false,
+            "type": "container",
+            "parent": "mainContainer"
+          },
+          "playerWin": {
+            "id": "playerWin",
+            "x": 550,
+            "y": 500,
+            "visible": false,
+            "type": "image",
+            "texture": "PlayerWin",
+            "scaleX": 1,
+            "scaleY": 1,
+            "parent": "winPresentaionContainer"
+          },
+          "playerBust": {
+            "id": "playerBust",
+            "x": 550,
+            "y": 600,
+            "visible": false,
+            "type": "image",
+            "texture": "Bust",
+            "scaleX": 1,
+            "scaleY": 1,
+            "parent": "winPresentaionContainer"
+          },
+          "dealerWin": {
+            "id": "dealerWin",
+            "x": 550,
+            "y": 130,
+            "visible": false,
+            "type": "image",
+            "texture": "DealerWin",
+            "scaleX": 1,
+            "scaleY": 1,
+            "parent": "winPresentaionContainer"
+          },
+          "dealerBust": {
+            "id": "dealerBust",
+            "x": 550,
+            "y": 220,
+            "visible": false,
+            "type": "image",
+            "texture": "Bust",
+            "scaleX": 1,
+            "scaleY": 1,
+            "parent": "winPresentaionContainer"
+          },
+          "shuffle": {
+            "id": "shuffle",
+            "x": 550,
+            "y": 310,
+            "visible": false,
+            "type": "image",
+            "texture": "Shuffle",
+            "scaleX": 1,
+            "scaleY": 1,
+            "parent": "winPresentaionContainer"
+          }
+    }
+}
